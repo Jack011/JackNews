@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#00f7ff"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/second_title_left"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:background="#01e7d7"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="返回"/>
+
+    <TextView
+        android:id="@+id/second_title_text"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="新闻详情"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/second_title_right"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:background="#01e7d7"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:text="分享"/>
+</LinearLayout>

@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.jackson.jacknews"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.jakewharton:butterknife:8.0.1'
+    apt 'com.jakewharton:butterknife-compiler:8.0.1'
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
+    compile 'com.squareup.okhttp3:okhttp:3.0.1'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.0.1'
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.android.support:support-v4:24.0.0'
+    compile files('libs/mframework.jar')
+    compile files('libs/ShareSDK-Core-2.5.1.jar')
+    compile files('libs/ShareSDK-QQ-2.5.1.jar')
+    compile files('libs/ShareSDK-QZone-2.5.1.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.5.1.jar')
+    compile files('libs/ShareSDK-Wechat-2.5.1.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.5.1.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.5.1.jar')
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="70dp">
+    <TextView
+        android:id="@+id/main_bar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/bars_margin"
+        android:background="#00fde8"
+        android:padding="5dp"
+        android:text="科技"
+        android:textColor="#001aff"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/main_bar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/bars_margin"
+        android:background="#00fde8"
+        android:padding="5dp"
+        android:text="体育"
+        android:textColor="#001aff"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/main_bar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/bars_margin"
+        android:background="#00fde8"
+        android:padding="5dp"
+        android:text="娱乐"
+        android:textColor="#001aff"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/main_bar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/bars_margin"
+        android:background="#00fde8"
+        android:padding="5dp"
+        android:text="奇闻"
+        android:textColor="#001aff"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/main_bar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/bars_margin"
+        android:background="#00fde8"
+        android:padding="5dp"
+        android:text="美女"
+        android:textColor="#001aff"
+        android:textSize="18sp" />
+
+
+    <ImageButton
+        android:id="@+id/main_bar6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="8dp"
+        android:background="@mipmap/ic_launcher" />
+</FrameLayout>
