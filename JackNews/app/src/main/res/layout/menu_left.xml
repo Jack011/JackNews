@@ -61,7 +61,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/me_line0"
-        android:text="我的偏好"
+        android:text="QQ登录"
         android:padding="10dp"
         android:textSize="20sp"/>
 

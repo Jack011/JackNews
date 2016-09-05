@@ -63,6 +63,7 @@ public class MainActivity extends BaseActivity{
     ImageButton mainBar6;
 
 
+
     StaggeredGridLayoutManager mLayoutManager;
     List<String> newsUrlList = new ArrayList<>();
 
@@ -98,6 +99,12 @@ public class MainActivity extends BaseActivity{
 
         btnBidirSlding();
     }
+    @OnClick(R.id.user_love)
+    void loginClick(View view){
+        Toast.makeText(MainActivity.this, "qq登录功能待添加", Toast.LENGTH_SHORT).show();
+    }
+
+
 
 
 
