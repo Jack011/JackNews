@@ -109,7 +109,6 @@ public class MainActivity extends BaseActivity{
 
 
     private void btnBidirSlding() {
-
         titleLeft.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

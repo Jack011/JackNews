@@ -42,6 +42,7 @@
         android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@+id/radio_group"
         android:background="#e9e9e9">
 
         <include layout="@layout/bar_title"/>
@@ -50,9 +51,40 @@
             android:id="@+id/main_recycler_view"
             android:layout_marginTop="50dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp"/>
 
        <include layout="@layout/san_hua_menu"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:orientation="horizontal"
+           android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_home"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:button="@null"
+                android:background="#11f7fe"
+                android:layout_height="match_parent"
+                android:drawableTop="@mipmap/ic_launcher"
+                android:text="首页"/>
+            <RadioButton
+                android:id="@+id/radio_center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:button="@null"
+                android:background="#11f7fe"
+                android:layout_marginLeft="2dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@mipmap/ic_launcher"
+                android:text="个人中心"/>
+        </RadioGroup>
     </FrameLayout>
+
 
 </com.jackson.jacknews.view.BidirSlidingLayout>
